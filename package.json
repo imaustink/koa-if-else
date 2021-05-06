@@ -1,6 +1,6 @@
 {
   "name": "koa-if-else",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Koa Middleware for if/else/elseif logic",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,7 +36,7 @@
     "koa-compose": "4.x"
   },
   "repository": {
-    "url": "",
+    "url": "https://github.com/imaustink/koa-if-else",
     "type": "git"
   },
   "keywords": [
