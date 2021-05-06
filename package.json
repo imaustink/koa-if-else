@@ -1,0 +1,50 @@
+{
+  "name": "koa-if-else",
+  "version": "0.0.2",
+  "description": "Koa Middleware for if/else/elseif logic",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ava",
+    "prepack": "tsc"
+  },
+  "author": "austin@austinkurpuis.com",
+  "license": "MIT",
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.18",
+    "@types/koa": "^2.11.6",
+    "@types/koa-compose": "^3.2.5",
+    "ava": "^3.13.0",
+    "fixpack": "^3.0.6",
+    "ts-node": "^9.1.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "koa": "2.x",
+    "koa-compose": "4.x"
+  },
+  "repository": {
+    "url": "",
+    "type": "git"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "if",
+    "else",
+    "elseif",
+    "logic"
+  ]
+}
